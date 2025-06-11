@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+dbt-env/
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# dbt artifacts
+dbt/target/
+dbt/dbt_modules/
+dbt/.dbt/
+
+# Tableau temporary files
+tableau/*.twb~
+tableau/*.twbx~
+tableau/Logs/
+
+# Misc
+*.swp
+*.bak
